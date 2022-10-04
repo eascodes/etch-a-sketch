@@ -20,7 +20,9 @@ createGrid(16);
 
 document.body.addEventListener('mouseover', function(e) {
     if (e.target.className == "square") {
-        e.target.classList.add("mouseover");
+        /*e.target.classList.add("mouseover");*/
+        /*e.target.setAttribute('style', 'border: orange solid 10px;')*/
+        e.target.style.background = "#" + Math.floor(Math.random()*16777215).toString(16);
     }
 
 });
