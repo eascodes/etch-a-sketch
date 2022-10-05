@@ -37,3 +37,8 @@ h1 {
   font-size: 16px;
   margin-bottom: 40px;
 }
+
+.grid-btn:hover {
+    cursor: pointer;
+    background: rgb(204, 52, 204);
+}
